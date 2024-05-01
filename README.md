@@ -3,13 +3,13 @@ Simple Block Explorer
 
 A trivial block explorer written in a single PHP file.
 
-Demo
--------
-https://bitcoin.jonasschnelli.ch/explorer/
+Forked from: https://github.com/jonasschnelli/simple-block-explorer
+
+Bitcoin demo: https://bitcoin.jonasschnelli.ch/explorer/
 
 Features
 -------
-* Only requires Bitcoin Core (no additional index)
+* Only requires Scashd (no additional index)
 * Does UTXO-set lookups
 * Can scan UTXO-set for address balances
 * Can scan blockfilters to create a transaction history of given address
@@ -17,7 +17,7 @@ Features
 Install
 -------
 * Place the `index.php` script into a php enabled http docs directory
-* Run Bitcoin Core with txindex and blockfilters `-txindex -blockfilterindex`
+* Run Scashd with txindex and blockfilters `-txindex -blockfilterindex`
 * Edit the index.php config section
 
 Nice links
